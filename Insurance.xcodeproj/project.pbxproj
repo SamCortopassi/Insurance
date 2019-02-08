@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66723E9E220E17D80092EED2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66723E9D220E17D80092EED2 /* AppDelegate.swift */; };
+		66723EA0220E17D80092EED2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66723E9F220E17D80092EED2 /* ViewController.swift */; };
+		66723EA3220E17D80092EED2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66723EA1220E17D80092EED2 /* Main.storyboard */; };
+		66723EA5220E17DB0092EED2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66723EA4220E17DB0092EED2 /* Assets.xcassets */; };
+		66723EA8220E17DB0092EED2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66723EA6220E17DB0092EED2 /* LaunchScreen.storyboard */; };
+		66723EB3220E17DB0092EED2 /* InsuranceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66723EB2220E17DB0092EED2 /* InsuranceTests.swift */; };
+		66723EBE220E17DB0092EED2 /* InsuranceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66723EBD220E17DB0092EED2 /* InsuranceUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66723EAF220E17DB0092EED2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66723E92220E17D80092EED2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66723E99220E17D80092EED2;
+			remoteInfo = Insurance;
+		};
+		66723EBA220E17DB0092EED2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66723E92220E17D80092EED2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66723E99220E17D80092EED2;
+			remoteInfo = Insurance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66723E9A220E17D80092EED2 /* Insurance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Insurance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66723E9D220E17D80092EED2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		66723E9F220E17D80092EED2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		66723EA2220E17D80092EED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66723EA4220E17DB0092EED2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66723EA7220E17DB0092EED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66723EA9220E17DB0092EED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66723EAE220E17DB0092EED2 /* InsuranceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsuranceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66723EB2220E17DB0092EED2 /* InsuranceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceTests.swift; sourceTree = "<group>"; };
+		66723EB4220E17DB0092EED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66723EB9220E17DB0092EED2 /* InsuranceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsuranceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66723EBD220E17DB0092EED2 /* InsuranceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceUITests.swift; sourceTree = "<group>"; };
+		66723EBF220E17DB0092EED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66723E97220E17D80092EED2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66723EAB220E17DB0092EED2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66723EB6220E17DB0092EED2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66723E91220E17D80092EED2 = {
+			isa = PBXGroup;
+			children = (
+				66723E9C220E17D80092EED2 /* Insurance */,
+				66723EB1220E17DB0092EED2 /* InsuranceTests */,
+				66723EBC220E17DB0092EED2 /* InsuranceUITests */,
+				66723E9B220E17D80092EED2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66723E9B220E17D80092EED2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66723E9A220E17D80092EED2 /* Insurance.app */,
+				66723EAE220E17DB0092EED2 /* InsuranceTests.xctest */,
+				66723EB9220E17DB0092EED2 /* InsuranceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66723E9C220E17D80092EED2 /* Insurance */ = {
+			isa = PBXGroup;
+			children = (
+				66723E9D220E17D80092EED2 /* AppDelegate.swift */,
+				66723E9F220E17D80092EED2 /* ViewController.swift */,
+				66723EA1220E17D80092EED2 /* Main.storyboard */,
+				66723EA4220E17DB0092EED2 /* Assets.xcassets */,
+				66723EA6220E17DB0092EED2 /* LaunchScreen.storyboard */,
+				66723EA9220E17DB0092EED2 /* Info.plist */,
+			);
+			path = Insurance;
+			sourceTree = "<group>";
+		};
+		66723EB1220E17DB0092EED2 /* InsuranceTests */ = {
+			isa = PBXGroup;
+			children = (
+				66723EB2220E17DB0092EED2 /* InsuranceTests.swift */,
+				66723EB4220E17DB0092EED2 /* Info.plist */,
+			);
+			path = InsuranceTests;
+			sourceTree = "<group>";
+		};
+		66723EBC220E17DB0092EED2 /* InsuranceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66723EBD220E17DB0092EED2 /* InsuranceUITests.swift */,
+				66723EBF220E17DB0092EED2 /* Info.plist */,
+			);
+			path = InsuranceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66723E99220E17D80092EED2 /* Insurance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66723EC2220E17DB0092EED2 /* Build configuration list for PBXNativeTarget "Insurance" */;
+			buildPhases = (
+				66723E96220E17D80092EED2 /* Sources */,
+				66723E97220E17D80092EED2 /* Frameworks */,
+				66723E98220E17D80092EED2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Insurance;
+			productName = Insurance;
+			productReference = 66723E9A220E17D80092EED2 /* Insurance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66723EAD220E17DB0092EED2 /* InsuranceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66723EC5220E17DB0092EED2 /* Build configuration list for PBXNativeTarget "InsuranceTests" */;
+			buildPhases = (
+				66723EAA220E17DB0092EED2 /* Sources */,
+				66723EAB220E17DB0092EED2 /* Frameworks */,
+				66723EAC220E17DB0092EED2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66723EB0220E17DB0092EED2 /* PBXTargetDependency */,
+			);
+			name = InsuranceTests;
+			productName = InsuranceTests;
+			productReference = 66723EAE220E17DB0092EED2 /* InsuranceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66723EB8220E17DB0092EED2 /* InsuranceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66723EC8220E17DB0092EED2 /* Build configuration list for PBXNativeTarget "InsuranceUITests" */;
+			buildPhases = (
+				66723EB5220E17DB0092EED2 /* Sources */,
+				66723EB6220E17DB0092EED2 /* Frameworks */,
+				66723EB7220E17DB0092EED2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66723EBB220E17DB0092EED2 /* PBXTargetDependency */,
+			);
+			name = InsuranceUITests;
+			productName = InsuranceUITests;
+			productReference = 66723EB9220E17DB0092EED2 /* InsuranceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66723E92220E17D80092EED2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Samantha Cortopassi";
+				TargetAttributes = {
+					66723E99220E17D80092EED2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					66723EAD220E17DB0092EED2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 66723E99220E17D80092EED2;
+					};
+					66723EB8220E17DB0092EED2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 66723E99220E17D80092EED2;
+					};
+				};
+			};
+			buildConfigurationList = 66723E95220E17D80092EED2 /* Build configuration list for PBXProject "Insurance" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66723E91220E17D80092EED2;
+			productRefGroup = 66723E9B220E17D80092EED2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66723E99220E17D80092EED2 /* Insurance */,
+				66723EAD220E17DB0092EED2 /* InsuranceTests */,
+				66723EB8220E17DB0092EED2 /* InsuranceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66723E98220E17D80092EED2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66723EA8220E17DB0092EED2 /* LaunchScreen.storyboard in Resources */,
+				66723EA5220E17DB0092EED2 /* Assets.xcassets in Resources */,
+				66723EA3220E17D80092EED2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66723EAC220E17DB0092EED2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66723EB7220E17DB0092EED2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66723E96220E17D80092EED2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66723EA0220E17D80092EED2 /* ViewController.swift in Sources */,
+				66723E9E220E17D80092EED2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66723EAA220E17DB0092EED2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66723EB3220E17DB0092EED2 /* InsuranceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66723EB5220E17DB0092EED2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66723EBE220E17DB0092EED2 /* InsuranceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66723EB0220E17DB0092EED2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66723E99220E17D80092EED2 /* Insurance */;
+			targetProxy = 66723EAF220E17DB0092EED2 /* PBXContainerItemProxy */;
+		};
+		66723EBB220E17DB0092EED2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66723E99220E17D80092EED2 /* Insurance */;
+			targetProxy = 66723EBA220E17DB0092EED2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66723EA1220E17D80092EED2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66723EA2220E17D80092EED2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66723EA6220E17DB0092EED2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66723EA7220E17DB0092EED2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66723EC0220E17DB0092EED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66723EC1220E17DB0092EED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66723EC3220E17DB0092EED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Insurance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Samantha.Insurance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66723EC4220E17DB0092EED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Insurance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Samantha.Insurance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		66723EC6220E17DB0092EED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InsuranceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Samantha.InsuranceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Insurance.app/Insurance";
+			};
+			name = Debug;
+		};
+		66723EC7220E17DB0092EED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InsuranceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Samantha.InsuranceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Insurance.app/Insurance";
+			};
+			name = Release;
+		};
+		66723EC9220E17DB0092EED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InsuranceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Samantha.InsuranceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Insurance;
+			};
+			name = Debug;
+		};
+		66723ECA220E17DB0092EED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InsuranceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Samantha.InsuranceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Insurance;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66723E95220E17D80092EED2 /* Build configuration list for PBXProject "Insurance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66723EC0220E17DB0092EED2 /* Debug */,
+				66723EC1220E17DB0092EED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66723EC2220E17DB0092EED2 /* Build configuration list for PBXNativeTarget "Insurance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66723EC3220E17DB0092EED2 /* Debug */,
+				66723EC4220E17DB0092EED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66723EC5220E17DB0092EED2 /* Build configuration list for PBXNativeTarget "InsuranceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66723EC6220E17DB0092EED2 /* Debug */,
+				66723EC7220E17DB0092EED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66723EC8220E17DB0092EED2 /* Build configuration list for PBXNativeTarget "InsuranceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66723EC9220E17DB0092EED2 /* Debug */,
+				66723ECA220E17DB0092EED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66723E92220E17D80092EED2 /* Project object */;
+}
